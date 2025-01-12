@@ -32,7 +32,7 @@ def stage_login():
     if st.button("Token", key="login_token"):
         st.session_state.stage = "StageLoginToken"
         st.rerun()
-    if st.button("QR-Code", key="login_QR"):
+    if st.button("QR-Code (maybe broken)", key="login_QR"):
         st.session_state.stage = "StageLoginQR"
         st.rerun()
 
